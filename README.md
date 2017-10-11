@@ -10,10 +10,3 @@ https://vooban.com/en/tips-articles-geek-stuff/how-to-quickly-create-a-simple-re
 
 server.js has the database config information you'll need to hook to your local DB. The only thing you will need to do is either create a new user locally with the username and password in the file, or change those to one you want to use.
 
-//Initialising connection string
-var dbConfig = {
-    user:  "testuser",
-    password: "password",
-    server: "localhost",
-    database: "LMS"
-};
